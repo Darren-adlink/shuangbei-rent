@@ -1,7 +1,11 @@
 {
- "updated": "2026-11-19 14:27",
- "ok": false,
+ "updated": "2026-11-19 14:46",
+ "ok": true,
  "finished": true,
- "phases": {},
+ "phases": {
+  "租屋 · 重驗網址": true,
+  "買屋 · 重驗網址": true,
+  "買屋 · 清掉長期下架": false
+ },
  "stop_date": "2027-06-01"
 }

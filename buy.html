@@ -402,10 +402,19 @@ details.orig pre{white-space:pre-wrap;word-break:break-word;font:13px/1.6 inheri
  <h1>蘆洲・三重買房 · 3房2廳1衛以上 · 1,200 萬以下</h1>
  <p class="stand">591 售屋網的 新北市蘆洲・三重 物件，符合條件 <b>146</b> 間。
   中位價 <b>2,198萬</b>，其中 <b>800 萬以內只有 6 間</b>。</p>
- <p class="stamp">整理時間 2026-11-19 14:27</p>
+ <p class="stamp">整理時間 2026-11-19 14:36</p>
 <p style="margin:6px 0 0"><a class="navlink" href="./" style="display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border:1px solid var(--accent);border-radius:8px;color:var(--accent);text-decoration:none;font-weight:700;font-size:14px">看租屋 →</a></p>
 <div style='margin:10px 0 0;padding:10px 12px;border:1px solid #ef9a9a;border-radius:10px;background:#fff5f5;color:#b71c1c;font-size:13px;line-height:1.6'><b>⚠ 防詐提醒</b>　仲介給的連結一律先看標示：只有 <b>官方</b> 才是房屋網站本身。LINE／FB 帳號可能被盜用 —— <b>任何頁面要你輸入 LINE 帳號、密碼、驗證碼、身分證或要求匯款，都是詐騙</b>，直接關掉並打電話跟本人確認。本站每天用沙盒（不登入、不執行網頁程式）追蹤每一條連結的真實去向，可疑的連結不會做成可點的超連結。</div>
-<!--CHG--><script>window.__NEW={};window.__NEW_DAYS=1;</script><!--/CHG-->
+<!--CHG--><style>
+.chg{margin:10px 0 0;border:1px solid var(--line);border-radius:10px;background:var(--card);padding:8px 12px}
+.chg>summary{cursor:pointer;font-weight:700;color:var(--accent)}
+.chg .day{margin:8px 0 4px;font-weight:700}
+.chg ul{margin:2px 0 6px 18px;padding:0;font-size:13px;line-height:1.5}
+.chg li a{color:inherit}
+.chg .k{display:inline-block;min-width:3.2em;font-weight:700}
+.chg .up{color:#c0392b}.chg .down{color:#1e8449}.chg .gone{color:#7f8c8d}.chg .new{color:#2471a3}
+.chg .more{color:#7f8c8d;font-size:12px}
+</style><details class='chg'><summary>最近異動（今天：新上架 3、下架 0、降價 0、漲價 0）</summary><div class='day'>2026-11-19 14:46　物件 148 筆</div><ul><li><span class='k new'>新上架</span> <a href='https://sale.591.com.tw/home/house/detail/2/21041237.html?openExternalBrowser=1' target='_blank' rel='noopener'>🏡【蘆洲民族雙捷｜頂佳大空間｜自住收租雙效益✨】</a> · 蘆洲區 3房2衛 24.5坪 · 880 萬 · 591</li><li><span class='k new'>新上架</span> <a href='https://sale.591.com.tw/home/house/detail/2/20938038.html?openExternalBrowser=1' target='_blank' rel='noopener'>🏡蘆洲長安街｜單坪2字頭大三房🏡</a> · 蘆洲區 3房2衛 37.75坪 · 1,068 萬 · 591</li><li><span class='k new'>新上架</span> <a href='https://sale.591.com.tw/home/house/detail/2/21105343.html?openExternalBrowser=1' target='_blank' rel='noopener'>專任-拭目以待置產首選永平起家厝三樓</a> · 蘆洲區 3房2衛 28.75坪 · 1,200 萬 · 591</li></ul></details><script>window.__NEW={"https://sale.591.com.tw/home/house/detail/2/21041237.html": "2026-11-19", "https://sale.591.com.tw/home/house/detail/2/20938038.html": "2026-11-19", "https://sale.591.com.tw/home/house/detail/2/21105343.html": "2026-11-19"};window.__NEW_DAYS=1;</script><!--/CHG-->
 </header>
 
 
@@ -541,14 +550,14 @@ button.plan[aria-pressed="true"]{background:#f08c00;color:#fff}
    <label class="chip"><input type="checkbox" id="f_elev">有電梯</label>
    <label class="chip"><input type="checkbox" id="f_alive" checked>只看還在的</label>
    <label class="chip"><input type="checkbox" id="f_fav">只看我的最愛 (<span id="favCount">0</span>)</label>
-   <span class="unit"><input class="num u" type="number" id="f_km" placeholder="距離" step="0.5" inputmode="decimal" aria-label="離食品路540號幾公里內"><b>公里內</b></span>
+   <span class="unit"><input class="num u" type="number" id="f_km" placeholder="距離" step="0.5" inputmode="decimal" aria-label="離中心點幾公里內"><b>公里內</b></span>
   </div>
   <div class="frow">
    <span class="flab">關鍵字</span>
    <input class="txt" type="text" id="f_kw" placeholder="路名、社區、仲介…">
    <button class="btn primary" id="f_quick" type="button">800 萬以內</button>
-   <button class="btn primary" id="f_quick2" type="button">食品路540號 2 公里內</button>
-   <button class="btn primary" id="f_quick3" type="button">2房2衛（10～40坪）</button>
+   <button class="btn primary" id="f_quick2" type="button">中心點 2 公里內</button>
+   <button class="btn primary" id="f_quick3" type="button">3房2廳2衛（最佳）</button>
    <button class="btn" id="f_reset" type="button">清除</button>
   </div>
  </div>
@@ -556,7 +565,7 @@ button.plan[aria-pressed="true"]{background:#f08c00;color:#fff}
 
 <p class="note">
  <b>價格是刊登價，不是成交價。</b>蘆洲・三重 3房2廳1衛（1,200 萬以下）的中位刊登價是
- 2,198 萬，800 萬以內只有 6 間，且多為 30 年以上的老公寓。<br>
+ 2,198 萬，800 萬以內有 6 間。<br>
  <b>「總價」欄位有經過清理</b>：591 卡片上還有「總價低於同社區 xxx 萬」（比同社區便宜多少）、
  「降 xx 萬」（降價金額）這類會誤導的數字，都已排除。<br>
  部分物件卡片沒有標總價，需要點進去看，這些不會出現在這裡。
@@ -677,12 +686,9 @@ button.plan[aria-pressed="true"]{background:#f08c00;color:#fff}
   // 大坪數 2房2衛：房降到 2、廳不限、衛 2、權狀 10~40 坪
   $("f_quick3").addEventListener("click", function () {
     reset();
-    $("f_room").value = "2";
-    $("f_rmax").value = "2";        // 剛好 2 房，不含 3 房以上
-    $("f_hall").value = "";
+    $("f_room").value = "3";
+    $("f_hall").value = "2";
     $("f_bath").value = "2";
-    $("f_amin").value = "10";
-    $("f_amax").value = "40";
     apply();
   });
   // LINE 內建瀏覽器：所有外連已寫死 openExternalBrowser=1，這裡再補橫幅
